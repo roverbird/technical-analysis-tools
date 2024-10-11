@@ -4,7 +4,9 @@ Here you will find a small collection of scripts to perform technical analysis o
 
 ## Calculate rolling returns for a period
 
-The `02price30f.py` python script calculates the 30-day future returns (rus., "скользящая доходность за 30-дневный период") for a given financial security by analyzing daily closing prices from a CSV file. It processes the data to get the closing price for each day, then uses vectorized operations to calculate the percentage change in price over a 30-day period. The script outputs the original date (open date), the closing price on that date, the price 30 days later (close date), and the 30-day future return percentage, saving the results to a new CSV file.
+The `02price30f.py` python script calculates the 30-day future returns (rus., "скользящая доходность за 30-дневный период": категоризируем `30_day_future_return` - интересует эта величина, а не цена сама по себе) for a given financial security by analyzing daily closing prices from a CSV file. It processes the data to get the closing price for each day, then uses vectorized operations to calculate the percentage change in price over a 30-day period. The script outputs the original date (open date), the closing price on that date, the price 30 days later (close date), and the 30-day future return percentage, saving the results to a new CSV file.
+
+
 
 ## Input requirements
 
